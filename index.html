@@ -1,0 +1,292 @@
+"<!DOCTYPE html>
+<html lang=\"id\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>Keripik Pare Bu Tejo - Camilan Sehat & Renyah Khas Kadireso, Boyolali</title>
+    <meta name=\"description\" content=\"Pusat keripik pare renyah, gurih, dan dijamin tidak pahit khas Kadireso, Boyolali. Tersedia kemasan 200g, 500g, dan 1kg. Pesan langsung dari produsennya!\">
+    <script src=\"https://cdn.tailwindcss.com\"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        /* Hover effects */
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(249, 115, 22, 0.4);
+        }
+        
+        /* Navbar shadow on scroll */
+        .navbar-scrolled {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class=\"font-sans antialiased\">
+    <!-- Navbar -->
+    <nav id=\"navbar\" class=\"bg-white sticky top-0 z-50 transition-all duration-300\">
+        <div class=\"container mx-auto px-4 py-4\">
+            <div class=\"flex items-center justify-between\">
+                <div class=\"text-2xl font-bold text-green-700\">
+                    Keripik Pare Bu Tejo
+                </div>
+                <div class=\"hidden md:flex space-x-8\">
+                    <a href=\"#keunggulan\" class=\"text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Keunggulan</a>
+                    <a href=\"#katalog\" class=\"text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Katalog Produk</a>
+                    <a href=\"#kontak\" class=\"text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Kontak</a>
+                </div>
+                <!-- Mobile menu button -->
+                <button id=\"mobile-menu-btn\" class=\"md:hidden text-gray-700 hover:text-green-600 focus:outline-none\">
+                    <svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">
+                        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile menu -->
+            <div id=\"mobile-menu\" class=\"hidden md:hidden mt-4 space-y-3\">
+                <a href=\"#keunggulan\" class=\"block text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Keunggulan</a>
+                <a href=\"#katalog\" class=\"block text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Katalog Produk</a>
+                <a href=\"#kontak\" class=\"block text-gray-700 hover:text-green-600 transition duration-300 font-medium\">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class=\"bg-gradient-to-br from-green-50 via-white to-stone-50 py-16 md:py-24\">
+        <div class=\"container mx-auto px-4\">
+            <div class=\"flex flex-col lg:flex-row items-center gap-12\">
+                <div class=\"lg:w-1/2 space-y-6 animate-fade-in-up\">
+                    <h1 class=\"text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight\">
+                        Sensasi Makan Pare Tanpa Rasa Pahit! Asli Kadireso, Boyolali
+                    </h1>
+                    <p class=\"text-lg md:text-xl text-gray-600 leading-relaxed\">
+                        Keripik Pare Bu Tejo menghadirkan inovasi camilan krispi, gurih, dan sehat. Diproses dengan resep rahasia keluarga hingga menghasilkan keripik yang 100% bebas pahit. Cocok untuk teman makan nasi atau camilan santai keluarga!
+                    </p>
+                    <a href=\"https://wa.me/6285866379450?text=Halo%20Bu%20Tejo,%20saya%20lihat%20website%20Keripik%20Pare%20dan%20saya%20tertarik%20untuk%20memesan%20produknya.\" 
+                       target=\"_blank\"
+                       rel=\"noopener noreferrer\"
+                       class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition duration-300 shadow-lg hover:shadow-xl btn-hover\">
+                        Pesan Sekarang via WhatsApp
+                    </a>
+                </div>
+                <div class=\"lg:w-1/2\">
+                    <img src=\"https://customer-assets.emergentagent.com/job_pare-renyah-boyolali/artifacts/rfj0d2e5_gambar-utama.jpg\" 
+                         alt=\"Keripik Pare Bu Tejo - Camilan Sehat Khas Kadireso\" 
+                         class=\"w-full h-auto rounded-2xl shadow-2xl object-cover\">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Keunggulan -->
+    <section id=\"keunggulan\" class=\"bg-stone-50 py-16 md:py-24\">
+        <div class=\"container mx-auto px-4\">
+            <h2 class=\"text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-12 md:mb-16\">
+                Kenapa Harus Keripik Pare Bu Tejo?
+            </h2>
+            <div class=\"grid md:grid-cols-3 gap-8 md:gap-12\">
+                <!-- Keunggulan 1 -->
+                <div class=\"bg-white p-8 rounded-2xl shadow-lg text-center card-hover\">
+                    <div class=\"mb-6\">
+                        <svg class=\"w-16 h-16 mx-auto text-green-600\" fill=\"currentColor\" viewBox=\"0 0 20 20\">
+                            <path fill-rule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path>
+                        </svg>
+                    </div>
+                    <h3 class=\"text-2xl font-bold text-gray-800 mb-4\">100% Tidak Pahit</h3>
+                    <p class=\"text-gray-600 leading-relaxed\">
+                        Diolah dengan teknik khusus sehingga rasa pahit pare hilang sepenuhnya, disukai anak-anak hingga dewasa.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 2 -->
+                <div class=\"bg-white p-8 rounded-2xl shadow-lg text-center card-hover\">
+                    <div class=\"mb-6\">
+                        <svg class=\"w-16 h-16 mx-auto text-orange-500\" fill=\"currentColor\" viewBox=\"0 0 20 20\">
+                            <path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"></path>
+                        </svg>
+                    </div>
+                    <h3 class=\"text-2xl font-bold text-gray-800 mb-4\">Renyah Maksimal</h3>
+                    <p class=\"text-gray-600 leading-relaxed\">
+                        Digoreng dengan suhu yang presisi, menghasilkan tekstur krispi yang tahan lama meski disimpan lama.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 3 -->
+                <div class=\"bg-white p-8 rounded-2xl shadow-lg text-center card-hover\">
+                    <div class=\"mb-6\">
+                        <svg class=\"w-16 h-16 mx-auto text-green-600\" fill=\"currentColor\" viewBox=\"0 0 20 20\">
+                            <path fill-rule=\"evenodd\" d=\"M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z\" clip-rule=\"evenodd\"></path>
+                        </svg>
+                    </div>
+                    <h3 class=\"text-2xl font-bold text-gray-800 mb-4\">Bahan Pilihan Kadireso</h3>
+                    <p class=\"text-gray-600 leading-relaxed\">
+                        Terbuat dari pare segar berkualitas yang dipanen langsung dari petani lokal di Desa Kadireso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Katalog Produk -->
+    <section id=\"katalog\" class=\"bg-white py-16 md:py-24\">
+        <div class=\"container mx-auto px-4\">
+            <h2 class=\"text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-12 md:mb-16\">
+                Pilihan Kemasan Sesuai Kebutuhanmu
+            </h2>
+            <div class=\"grid md:grid-cols-3 gap-8 md:gap-12\">
+                <!-- Produk 1 -->
+                <div class=\"bg-green-50 rounded-2xl shadow-lg overflow-hidden card-hover\">
+                    <div class=\"h-72 overflow-hidden\">
+                        <img src=\"https://customer-assets.emergentagent.com/job_pare-renyah-boyolali/artifacts/bnlflu33_produk-1-kemasan%20200%20gram.jpg\" 
+                             alt=\"Keripik Pare 200 Gram\" 
+                             class=\"w-full h-full object-cover\">
+                    </div>
+                    <div class=\"p-6 md:p-8\">
+                        <h3 class=\"text-2xl font-bold text-gray-800 mb-3\">Kemasan Praktis 200 Gram</h3>
+                        <p class=\"text-3xl font-bold text-orange-500 mb-4\">Rp 20.000</p>
+                        <p class=\"text-gray-600 mb-6 leading-relaxed\">
+                            Pas untuk camilan santai sendiri saat kerja atau nonton.
+                        </p>
+                        <a href=\"https://wa.me/6285866379450?text=Halo%20Bu%20Tejo,%20saya%20lihat%20website%20Keripik%20Pare%20dan%20saya%20tertarik%20untuk%20memesan%20produknya.\" 
+                           target=\"_blank\"
+                           rel=\"noopener noreferrer\"
+                           class=\"block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-center transition duration-300 btn-hover\">
+                            Beli 200g Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class=\"bg-green-50 rounded-2xl shadow-lg overflow-hidden card-hover\">
+                    <div class=\"h-72 overflow-hidden\">
+                        <img src=\"https://customer-assets.emergentagent.com/job_pare-renyah-boyolali/artifacts/yncpamex_produk-2-kemasan%20500%20gram.jpg\" 
+                             alt=\"Keripik Pare 500 Gram\" 
+                             class=\"w-full h-full object-cover\">
+                    </div>
+                    <div class=\"p-6 md:p-8\">
+                        <h3 class=\"text-2xl font-bold text-gray-800 mb-3\">Kemasan Keluarga 500 Gram</h3>
+                        <p class=\"text-3xl font-bold text-orange-500 mb-4\">Rp 45.000</p>
+                        <p class=\"text-gray-600 mb-6 leading-relaxed\">
+                            Ukuran sedang yang pas dinikmati bersama teman dan keluarga di rumah.
+                        </p>
+                        <a href=\"https://wa.me/6285866379450?text=Halo%20Bu%20Tejo,%20saya%20lihat%20website%20Keripik%20Pare%20dan%20saya%20tertarik%20untuk%20memesan%20produknya.\" 
+                           target=\"_blank\"
+                           rel=\"noopener noreferrer\"
+                           class=\"block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-center transition duration-300 btn-hover\">
+                            Beli 500g Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class=\"bg-green-50 rounded-2xl shadow-lg overflow-hidden card-hover\">
+                    <div class=\"h-72 overflow-hidden\">
+                        <img src=\"https://customer-assets.emergentagent.com/job_pare-renyah-boyolali/artifacts/g3xwarha_produk-3-kemasan%201kg.jpg\" 
+                             alt=\"Keripik Pare 1 Kg\" 
+                             class=\"w-full h-full object-cover\">
+                    </div>
+                    <div class=\"p-6 md:p-8\">
+                        <h3 class=\"text-2xl font-bold text-gray-800 mb-3\">Kemasan Puas 1 Kg</h3>
+                        <p class=\"text-3xl font-bold text-orange-500 mb-4\">Rp 83.000</p>
+                        <p class=\"text-gray-600 mb-6 leading-relaxed\">
+                            Lebih hemat! Stok camilan krispi anti-habis untuk berbagai acara atau hajatan.
+                        </p>
+                        <a href=\"https://wa.me/6285866379450?text=Halo%20Bu%20Tejo,%20saya%20lihat%20website%20Keripik%20Pare%20dan%20saya%20tertarik%20untuk%20memesan%20produknya.\" 
+                           target=\"_blank\"
+                           rel=\"noopener noreferrer\"
+                           class=\"block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-center transition duration-300 btn-hover\">
+                            Beli 1 Kg Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id=\"kontak\" class=\"bg-green-700 text-white py-12\">
+        <div class=\"container mx-auto px-4\">
+            <div class=\"text-center space-y-4\">
+                <h3 class=\"text-2xl font-bold\">Keripik Pare Bu Tejo</h3>
+                <p class=\"text-lg text-green-100\">
+                    Desa Kadireso, Boyolali
+                </p>
+                <p class=\"text-green-100\">
+                    Hubungi kami via WhatsApp: 
+                    <a href=\"https://wa.me/6285866379450\" 
+                       target=\"_blank\"
+                       rel=\"noopener noreferrer\"
+                       class=\"font-bold text-white hover:text-orange-300 transition duration-300\">
+                        0858-6637-9450
+                    </a>
+                </p>
+                <div class=\"pt-6 border-t border-green-600\">
+                    <p class=\"text-green-100\">
+                        © 2026 Keripik Pare Bu Tejo - Desa Kadireso, Boyolali. Camilan Sehat UMKM Lokal. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu and navbar scroll effect -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Navbar shadow on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
+"
